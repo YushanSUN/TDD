@@ -1,0 +1,13 @@
+package customer;
+
+public class Customer {
+	private String propriete;
+	private String password;
+	
+	public boolean matchPassword(final String password1) throws CheckException {
+		if (password1 == null || "".equals(password1))
+		throw new InvalidPasswordException();
+		// The password entered by the customer is not the same stored in database
+		return password1.equals(getPassword())
+	}
+}

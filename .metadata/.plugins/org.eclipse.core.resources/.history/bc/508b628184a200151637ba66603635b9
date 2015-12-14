@@ -1,0 +1,17 @@
+package customer;
+
+import org.junit.Test;
+
+import exception.InvalidPasswordException;
+
+public class CustomerTest {
+    
+    
+	@Test(expected = InvalidPasswordException.class)
+	public void verifyNullPasswordReturnException() throws InvalidPasswordException
+	{
+		Customer customer = new Customer();
+		customer.matchPassword(null);
+	 
+	}
+}

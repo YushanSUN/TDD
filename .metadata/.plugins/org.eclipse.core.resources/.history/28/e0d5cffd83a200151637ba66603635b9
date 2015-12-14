@@ -1,0 +1,12 @@
+package customer;
+
+import org.junit.Test;
+
+public class CustomerTest {
+
+	@Test(expected = InvalidPasswordException.class)
+	public void verifyDivideWhenDivideByZeroReturnException()
+	{
+	 calculation.divide(1000, 0);
+	 }
+}
