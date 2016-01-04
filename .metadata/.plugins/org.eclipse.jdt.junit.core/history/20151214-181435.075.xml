@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="CustomerTest" project="customer" tests="4" started="4" failures="0" errors="0" ignored="0">
-  <testsuite name="customer.CustomerTest" time="0.0">
-    <testcase name="verifyFauxPasswordReturnException" classname="customer.CustomerTest" time="0.0"/>
-    <testcase name="verifyVidePasswordReturnException" classname="customer.CustomerTest" time="0.0"/>
-    <testcase name="verifyNullPasswordReturnException" classname="customer.CustomerTest" time="0.0"/>
-    <testcase name="verifyVraiPasswordReturnException" classname="customer.CustomerTest" time="0.0"/>
-  </testsuite>
-</testrun>

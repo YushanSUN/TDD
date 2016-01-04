@@ -1,0 +1,12 @@
+package fr.enst.shopping;
+
+import java.util.ArrayList;
+
+public class FinalCartDTO {
+
+	public void setCartItems(ArrayList<ShoppingCartItemDTO> carts) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

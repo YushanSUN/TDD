@@ -1,0 +1,27 @@
+package fr.enst.shopping;
+
+import java.util.Map;
+
+public class ShoppingCartServiceImpl{
+	
+	CatalogService catalogService;
+	
+	public CatalogService getCatalogService(){
+		return catalogService;
+	}
+	
+	public void setCatalogService(CatalogService catalogService){
+		this.catalogService = catalogService;
+	}
+	
+	public FinalCartDTO getCartItems(Map<Long, Integer> map) throws CheckException{
+		if(map==null){
+			throw new CartIsNullException();
+		}
+		
+		if(map.keySet().size()==0){
+			throw new CartIsEmptyException();
+		}
+		
+	}
+}
